@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot to handle commands like .song, .video, etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.15.0",
+    "ytdl-core": "^4.9.1",
+    "ffmpeg-static": "^4.4.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  }
+}
